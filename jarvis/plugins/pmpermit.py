@@ -250,9 +250,9 @@ async def hehehe(event):
     chat = await event.get_chat()
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
-            pmpermit_sql.approve(chat.id, "**My Creator Is Best🔥**")
+            pmpermit_sql.approve(chat.id, "**You are my best friend**")
             await borg.send_message(
-                chat, "**This User Is My Creator ! So Auto Approved !!!!**"
+                chat, "**I found that you are my boss's best friend ! So Auto Approved !!!!**"
             )
 
 
